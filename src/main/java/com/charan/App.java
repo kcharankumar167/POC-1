@@ -11,7 +11,7 @@ public class App {
 
     @GetMapping("/")
     public String home() {
-        return "Hello Charan! Deployment is done in Docker Hub 🚀";
+        return "Hello Charan Kumar! Deployment is done in Docker Hub 🚀";
     }
 
     public static void main(String[] args) {
