@@ -11,7 +11,7 @@ public class App {
 
     @GetMapping("/")
     public String home() {
-        return "Hello!  Deployment is done in Docker Hub  POC-1 successfully deployed🚀with  new updates ";
+        return "HEllo world , POC 1 CICD pipeline ";
     }
 
     public static void main(String[] args) {
